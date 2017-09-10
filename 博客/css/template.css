@@ -1,3 +1,12 @@
+  @media only screen and (max-width:800px){
+
+   }
+   @media only screen and (min-width:481px) and (max-width:800px){
+
+   }
+   @media only screen and (max-width:480px){
+
+   }
 html{font-size:62.5%;}
 .clearFix{clear:both;}
 li{list-style:none;}
@@ -42,6 +51,19 @@ li{list-style:none;}
     vertical-align: middle;
     margin-top: -0.4rem;
     margin-right: 0.4rem;
+}
+@media only screen and (max-width:800px){
+    .nav-header ul li{
+        width:8rem;
+        height:5rem;
+        line-height:5rem;
+        fonr-size:1.2rem;
+    }
+   }
+@media only screen and (max-width:450px){
+    .nav-header .nav-list{
+        margin: 0 0.6rem 0 0;
+    }
 }
 /*内容*/
 .content{
