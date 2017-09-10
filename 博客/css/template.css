@@ -104,6 +104,10 @@ li{list-style:none;}
      cursor:pointer;
      opacity:2;
 }
+.content .content-main .content-left ul li .extend{
+  width:880px;
+  height:312px;
+}
 /*发表文章部分*/
 .content .content-footer{
     margin:0 0 0 3%;
@@ -119,6 +123,10 @@ li{list-style:none;}
     clear: both;
     margin-top: 0.7rem;
 }
+.content .content-main .content-left ul li{
+    width:100%;
+}
+
 .content .content-footer .news-left{
    float: left;
    margin:1.3rem 1.3rem;
@@ -126,10 +134,9 @@ li{list-style:none;}
    width:22%;
 }
 .content .content-footer .news-right{
-    float:left;
+    float:right;
     width: 72%;
     vertical-align:top;
-    position:relative;
 }
 .content .content-footer .news-right .new-title{
     color: #a299ac;
@@ -154,6 +161,7 @@ li{list-style:none;}
 /*阅读全文*/
 .content .content-all{
     text-align:right;
+    margin-right:2rem;
 }
 .content .content-all a{
     display:inline-block;
@@ -181,7 +189,17 @@ li{list-style:none;}
     font-size: 1.5rem;
     color: black;
 }
-
+@media only screen and (max-width:1350px){
+    .content .content-main .content-left ul li .extend{
+        width:94%;
+    }
+   .content .content-right{
+    display:none;
+   }
+   .content .content-left{
+    width:100%;
+   }
+}
 
 
 
