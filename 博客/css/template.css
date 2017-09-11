@@ -196,6 +196,12 @@ li{list-style:none;}
        margin: 0 0.6rem 0.2rem 0;
        width:100%;
     }
+    .content .content-main .content-left ul li .extend{
+        margin-left: -3px;
+    }
+    .content .content-footer ul li{
+        margin-left: -40px;
+    }
 }
 
 
