@@ -82,32 +82,7 @@ li{list-style:none;}
     position:relative;
     height: 27rem;
 }
-.content .content-main .trans .fis li{
-    position:absolute;
-    opacity: 0;
-    transition: 0.5s;
-}
-.content .content-main .trans .fis .active{
-    opacity:1;
-}
-.content .content-main .trans .item-list{
-    position:absolute;
-    opacity:2;
-    top: 272px;
-}
-.content-main .trans .item-list .show{
-     display:inline-block;
-     width:20px;
-     height:20px;
-     background-color:#ccc;
-     border-radius:100%;
-     cursor:pointer;
-     opacity:2;
-}
-.content .content-main .content-left ul li .extend{
-  width:880px;
-  height:312px;
-}
+
 /*发表文章部分*/
 .content .content-footer{
     margin:0 0 0 3%;
@@ -160,8 +135,8 @@ li{list-style:none;}
 
 /*阅读全文*/
 .content .content-all{
-    text-align:right;
-    margin-right:2rem;
+    text-align:left;
+
 }
 .content .content-all a{
     display:inline-block;
@@ -191,7 +166,7 @@ li{list-style:none;}
 }
 @media only screen and (max-width:1350px){
     .content .content-main .content-left ul li .extend{
-        width:94%;
+        width:97%;
     }
    .content .content-right{
     display:none;
@@ -200,9 +175,25 @@ li{list-style:none;}
     width:100%;
    }
 }
-
-
-
+@media only screen and (max-width:900px){
+    .content .content-footer .news-left img{
+        width:12rem;
+        height:12rem;
+    }
+}
+@media only screen and (max-width:700px){
+     .content .content-footer .news-right{
+        clear:both;
+        display:inline-block;
+        width:96%;
+    }
+}
+@media only screen and (max-width:450px){
+    .content .content-main{
+       margin: 0 0.6rem 0.2rem 0;
+       width:100%;
+    }
+}
 
 
 
