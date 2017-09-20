@@ -86,7 +86,7 @@ li{list-style:none;}
 /*发表文章部分*/
 .content .content-footer{
     margin:0 0 0 3%;
-    width: 97.2%;
+    width: 97%;
 }
 .content .content-footer ul li{
     background:#ffffff;
@@ -101,7 +101,6 @@ li{list-style:none;}
 .content .content-main .content-left ul li{
    width: 106.8%;
 }
-
 .content .content-footer .news-left{
    float: left;
    margin:0.5rem 0.5rem;
@@ -212,6 +211,10 @@ li{list-style:none;}
     .content .content-main .content-left ul li .extend{
         text-align:center;
     }
+    .content .content-main{
+        margin:0 0;
+        width:100%;
+}
 }
 
 
